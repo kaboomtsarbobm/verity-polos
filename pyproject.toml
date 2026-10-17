@@ -1,6 +1,6 @@
 [project]
 name = "nyc-subway"  # Changed from "nyc subway"
-version = "1.0.0"
+version = "0.2.1"
 
 description = "secret package simulator"
 license = "MIT"  # replace with your own license
