@@ -1,11 +1,18 @@
-[project]
-name = "nyc-subway"  # Changed from "nyc subway"
-version = "0.2.1"
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "nyc-subway"
+version = "0.2.1"
 description = "secret package simulator"
-license = "MIT"  # replace with your own license
-license-files = ["LICENSE"]
-authors = [
-    { name = "randomdex", email = "randomdex3@gmail.com" },
-]
 readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+authors = [
+    { name = "randomdex", email = "randomdex3@gmail.com" }
+]
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
